@@ -35,7 +35,7 @@ body {
   align-items: center;
   justify-content: center;
   font-family: "Silkscreen", cursive;
-  background-color: lightSlategray;
+  background: url(./sunnyday.png) center center / cover no-repeat;
 }
 
 h1 {
@@ -95,7 +95,7 @@ button:hover {
   background: linear-gradient(to right, black 50%, transparent 50%);
   background-size: 200% 100%;
   background-position: left;
-  color: lightslategray;
+  color: aqua;
   transition: all 0.5s ease-out;
 }
 
