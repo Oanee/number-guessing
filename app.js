@@ -26,17 +26,17 @@ function play() {
       updateRandomNumber();
       j++;
     } else if (numberGuessing < randomNumber) {
-      result.innerText = "You guessed to low";
+      result.innerText = "You guessed too low";
       tryes += 1;
     } else if (numberGuessing > randomNumber) {
-      result.innerText = "You guessed to high";
+      result.innerText = "You guessed too high";
       tryes++;
     }
 
     if (i == 10) {
       max = 1000;
       j = 10;
-      result.innerText = "You win this gaaaaaamee!!!!!!!!!";
+      result.innerText = "Yooouuuu wiiiiin theeee gaaaaaameeeee!!!!!!!!!";
     }
 
     input.innerText = tryes;
