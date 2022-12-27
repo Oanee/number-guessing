@@ -89,6 +89,7 @@ button {
   border: none;
   border-left: 3px solid black;
   margin-bottom: 3rem;
+  color: black;
 }
 
 button:hover {
