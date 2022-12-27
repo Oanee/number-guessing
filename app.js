@@ -26,10 +26,10 @@ function play() {
       updateRandomNumber();
       j++;
     } else if (numberGuessing < randomNumber) {
-      result.innerText = "You guessed too low";
+      result.innerText = "You have guessed too low";
       tryes += 1;
     } else if (numberGuessing > randomNumber) {
-      result.innerText = "You guessed too high";
+      result.innerText = "You have guessed too high";
       tryes++;
     }
 
