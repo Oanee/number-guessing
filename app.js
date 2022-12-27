@@ -16,6 +16,8 @@ function play() {
 
   if (numberGuessing < 0 || numberGuessing > max) {
     result.innerText = `Please enter a number between 0 and ${max}`;
+  } else if (numberGuessing === "") {
+    result.innerText = "Please enter a number";
   } else {
     if (numberGuessing == randomNumber) {
       result.innerText = "Congratulations!!!";
