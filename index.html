@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&family=Silkscreen&display=swap"
+      rel="stylesheet"
+    />
+    <title>Number Guessing</title>
+  </head>
+  <body>
+    <div class="number-guessing">
+      <h1>Guess the number</h1>
+
+      <h2 class="min-max">Between 0 - <span id="max">10</span></h2>
+
+      <p id="result">Type bellow</p>
+
+      <div class="form">
+        <input
+          type="text"
+          name="text"
+          id="text"
+          placeholder="Input your number"
+        />
+
+        <button type="submit" id="submit">Submit</button>
+      </div>
+
+      <p>Level: <span id="levels">1</span></p>
+
+      <p>Tryes: <span id="tryes">0</span></p>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

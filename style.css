@@ -1,0 +1,105 @@
+@keyframes text-color-animation {
+  0% {
+    color: red;
+  }
+
+  20% {
+    color: orange;
+  }
+
+  40% {
+    color: yellow;
+  }
+
+  60% {
+    color: green;
+  }
+
+  80% {
+    color: blue;
+  }
+
+  100% {
+    color: violet;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Silkscreen", cursive;
+  background-color: lightSlategray;
+}
+
+h1 {
+  margin-bottom: 3rem;
+  text-align: center;
+  font-size: 4rem;
+  animation: text-color-animation 5s infinite ease-out alternate;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 3rem;
+  font-size: 2rem;
+}
+
+#result {
+  margin-bottom: 3rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  align-items: center;
+}
+
+input {
+  font-family: "Silkscreen", cursive;
+  height: 3rem;
+  font-size: 2rem;
+  text-align: center;
+  width: 30rem;
+  border: 3px solid black;
+  background: transparent;
+  outline: none;
+}
+
+input::placeholder {
+  text-align: center;
+  color: black;
+}
+
+button {
+  font-family: "Silkscreen", cursive;
+  font-size: 2rem;
+  height: 3rem;
+  width: 15rem;
+  background: none;
+  background-position: right;
+  cursor: pointer;
+  border: none;
+  border-left: 3px solid black;
+  margin-bottom: 3rem;
+}
+
+button:hover {
+  background: linear-gradient(to right, black 50%, transparent 50%);
+  background-size: 200% 100%;
+  background-position: left;
+  color: lightslategray;
+  transition: all 0.5s ease-out;
+}
+
+p {
+  text-align: center;
+  font-size: 2rem;
+}
