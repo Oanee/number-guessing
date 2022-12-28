@@ -55,7 +55,7 @@ h2 {
   margin-bottom: 3rem;
 }
 
-.form {
+form {
   display: flex;
   flex-direction: column;
   gap: 3rem;

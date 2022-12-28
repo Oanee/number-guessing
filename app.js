@@ -12,7 +12,7 @@ let randomNumber = Math.floor(Math.random() * max + 1);
 let tryes = 0;
 
 function play() {
-  let numberGuessing = document.getElementById("text").value;
+  let numberGuessing = document.getElementById("number").value;
 
   if (numberGuessing < 0 || numberGuessing > max) {
     result.innerText = `Please enter a number between 0 and ${max}`;
